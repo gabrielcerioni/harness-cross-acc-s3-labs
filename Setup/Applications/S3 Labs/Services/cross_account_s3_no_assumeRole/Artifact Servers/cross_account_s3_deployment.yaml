@@ -3,4 +3,4 @@ type: AMAZON_S3
 artifactPaths:
 - '*.yaml'
 bucketName: gabs-artifacts
-serverName: CS - Gabs - AWS - ECS - EC2 - CS Admin
+serverName: CS - Gabs - Amazon Web Services
