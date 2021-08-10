@@ -1,6 +1,0 @@
-harnessApiVersion: '1.0'
-type: AMAZON_S3
-artifactPaths:
-- '*.yaml'
-bucketName: gabs-artifacts
-serverName: Cross Account S3 Bucket Cloud Provider
