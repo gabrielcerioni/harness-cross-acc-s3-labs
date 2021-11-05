@@ -20,6 +20,16 @@ phases:
     steps:
     - type: ARTIFACT_COLLECTION
       name: Artifact Collection
+      properties:
+        artifactStreamName: s3_with_some_dummies
+        buildNo: .*tgz
+        entityType: SERVICE
+        regex: true
+        serviceName: cross_account_s3_no_assumeRole
+        templateUuid: null
+        templateVariables: null
+        templateVersion: null
+        timeoutMillis: 300000
     stepsInParallel: false
   - type: WRAP_UP
     name: Wrap Up
