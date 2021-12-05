@@ -1,2 +1,6 @@
 harnessApiVersion: '1.0'
 type: APPLICATION
+branchName: main
+gitConnector: Git_GitHub_Account_Level_Connector
+isGitSyncEnabled: true
+repoName: harness-cross-acc-s3-labs
