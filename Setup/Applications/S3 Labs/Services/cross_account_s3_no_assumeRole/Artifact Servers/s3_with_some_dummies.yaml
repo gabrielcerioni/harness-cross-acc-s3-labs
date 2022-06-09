@@ -2,5 +2,5 @@ harnessApiVersion: '1.0'
 type: AMAZON_S3
 artifactPaths:
 - '*.yml'
-bucketName: gabs-artifacts
+bucketName: gabstestabc
 serverName: CS - Gabs - Amazon Web Services
