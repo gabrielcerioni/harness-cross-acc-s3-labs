@@ -9,7 +9,7 @@ data:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: download-eif-pod
 spec:
   containers:
   - name: download-eif
