@@ -20,4 +20,4 @@ spec:
         configMapKeyRef:
           name: eif-cfg
           key: CAPE_EIF_PATH
-    command: ["echo", "$(CAPE_EIF_PATH)"]
+    command: ["aws", "s3", "ls" "$(CAPE_EIF_PATH)"]
